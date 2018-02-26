@@ -25,6 +25,13 @@ namespace MyFirstDab
                 Url = Article.URL
             };
             
+            
+        }
+
+        protected override void OnDisappearing()
+        {
+            _webView.Source = "";
+            base.OnDisappearing();
         }
 
 
