@@ -18,7 +18,7 @@ namespace MyFirstDab.Model
                 },
                 new Article()
                 {
-                    Title = "Harry Potter And The Last Fap",
+                    Title = "Harry Potter And The Last Snap",
                     Author = "Sqøren",
                     URL = "FakeURL"
                 },
